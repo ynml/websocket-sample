@@ -1,0 +1,30 @@
+# 依存関係
+/node_modules
+/package-lock.json
+/yarn.lock
+
+# ログ
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ランタイムデータ
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# ディレクトリ
+.npm
+.eslintcache
+.node_repl_history
+.env
+
+# エディタ設定
+.idea
+.vscode
+*.swp
+*.swo
+.DS_Store

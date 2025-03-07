@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WebSocketチャット</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="chat-container">
+    <header class="chat-header">
+      <h1>WebSocketチャット</h1>
+    </header>
+    
+    <div id="login-container">
+      <div class="login-form">
+        <h2>ユーザー名を入力してください</h2>
+        <div class="form-control">
+          <input
+            type="text"
+            id="username"
+            placeholder="ユーザー名"
+            required
+          />
+        </div>
+        <button id="join-btn" class="btn">チャットに参加</button>
+      </div>
+    </div>
+    
+    <main class="chat-main" id="chat-main" style="display: none;">
+      <div class="chat-sidebar">
+        <h3>オンラインユーザー</h3>
+        <ul id="users"></ul>
+      </div>
+      <div class="chat-messages" id="chat-messages"></div>
+    </main>
+    
+    <div class="chat-form-container" id="message-form-container" style="display: none;">
+      <form id="chat-form">
+        <input
+          id="msg"
+          type="text"
+          placeholder="メッセージを入力してください"
+          required
+          autocomplete="off"
+        />
+        <button class="btn"><i class="fas fa-paper-plane"></i> 送信</button>
+      </form>
+      <div id="typing-indicator" class="typing-indicator"></div>
+    </div>
+  </div>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="client.js"></script>
+</body>
+</html>
