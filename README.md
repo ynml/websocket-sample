@@ -18,20 +18,20 @@ node-app/
 
 - Node.js 18.x 以上
 - Python 3.x
-- npm 9.x 以上（または yarn/pnpm）
+- npm 9.x 以上（または yarn/pnpm/bun）
 
 ### バックエンドのセットアップ
 
 1. Node.js の依存関係をインストール:
 
 ```bash
-npm install
+pnpm install
 ```
 
 2. Node.js サーバーの起動:
 
 ```bash
-npm start
+pnpm start
 ```
 
 3. Python の依存関係をインストール:

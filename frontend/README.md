@@ -13,18 +13,11 @@
 ### 必要条件
 
 - Node.js 18.x 以上
-- npm 9.x 以上（または yarn/pnpm）
+- pnpm 10.x 以上
 
 ### インストール
 
 ```bash
-# npmの場合
-npm install
-
-# yarnの場合
-yarn install
-
-# pnpmの場合
 pnpm install
 ```
 
@@ -33,13 +26,6 @@ pnpm install
 開発サーバーは `http://localhost:3000` で起動します：
 
 ```bash
-# npmの場合
-npm run dev
-
-# yarnの場合
-yarn dev
-
-# pnpmの場合
 pnpm dev
 ```
 
@@ -48,26 +34,12 @@ pnpm dev
 本番環境用のビルド：
 
 ```bash
-# npmの場合
-npm run build
-
-# yarnの場合
-yarn build
-
-# pnpmの場合
 pnpm build
 ```
 
 ビルド結果のプレビュー：
 
 ```bash
-# npmの場合
-npm run preview
-
-# yarnの場合
-yarn preview
-
-# pnpmの場合
 pnpm preview
 ```
 
