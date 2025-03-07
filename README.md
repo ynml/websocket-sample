@@ -65,18 +65,6 @@ python app.py
 - 補助バックエンド: Python
 - データベース: [使用している DB を記載]
 
-## デプロイメント
-
-[デプロイ手順や環境についての情報を記載]
-
-## 貢献ガイド
-
-1. このリポジトリをフォーク
-2. 機能ブランチを作成 (`git checkout -b feature/amazing-feature`)
-3. 変更をコミット (`git commit -m 'feat: add some amazing feature'`)
-4. ブランチにプッシュ (`git push origin feature/amazing-feature`)
-5. プルリクエストを作成
-
 ## トラブルシューティング
 
 よくある問題と解決方法については[Wiki](リンク)を参照してください。
